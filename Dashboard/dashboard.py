@@ -15,40 +15,8 @@ tmp_customer_locations_df = pd.read_csv('Dashboard/data/customer.csv')
 tmp_seller_locations_df = pd.read_csv('Dashboard/data/seller.csv')
 rfm = pd.read_csv('Dashboard/data/rfm.csv')
 
-# Create function for call data into visualization
-
-# Apply function
-
-# Side Bar
-# with st.sidebar:
-#     st.header('Pertanyaan')
-#     selected = option_menu(
-#         options=["Pertanyaan 1"]
-#     )
-# if selected == "Pertanyaan 1":
-    
-    # app_mode = st.sidebar.selectbox( "Pilih Pertanyaan", [
-	# 	"Pertanyaan 1",
-	# 	"Pertanyaan 2",
-	# 	"Pertanyaan 3",
-	# 	"Pertanyaan 4",
-	# 	"Pertanyaan 5",
-	# 	"Pertanyaan 6",
-    #     "Pertanyaan 7",
-    #     "Pertanyaan 8",
-    #     "Pertanyaan 9",
-    #     "Pertanyaan 10",
-    #     "Pertanyaan 11",
-    #     "Pertanyaan 12",
-	# ])
-
-# nav
-# if app_mode == "Pertanyaan 1": vis1
-
-
 # Main page
-st.title(os.listdir())
-# st.title('Proyek Akhir')
+st.title('Proyek Akhir')
 st.markdown('##')
 st.subheader("Nama: Muhammad Arsyad Ramadhan")
 st.subheader("Email: arsyad351@gmail.com")
