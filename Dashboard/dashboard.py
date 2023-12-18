@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn import metrics
 import datetime as dt
+import os
 
 
 # Load data
 # tmp_merge_products_df = pd.read_csv('data\main_df.csv')
-tmp_merge_products_df = st.dataframe(pd.read_csv(r'/data/main_df.csv')) 
 # tmp_merge_products_df = pd.read_csv('data\main_df.csv')
 tmp_customer_locations_df = pd.read_csv('data\customer.csv')
 tmp_seller_locations_df = pd.read_csv('data\seller.csv')
@@ -48,7 +48,8 @@ rfm = pd.read_csv('data\rfm.csv')
 
 
 # Main page
-st.title('Proyek Akhir')
+st.title(os.listdir())
+# st.title('Proyek Akhir')
 st.markdown('##')
 st.subheader("Nama: Muhammad Arsyad Ramadhan")
 st.subheader("Email: arsyad351@gmail.com")
