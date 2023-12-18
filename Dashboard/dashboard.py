@@ -9,7 +9,9 @@ import datetime as dt
 
 
 # Load data
-tmp_merge_products_df = pd.read_csv('data\main_df.csv')
+# tmp_merge_products_df = pd.read_csv('data\main_df.csv')
+tmp_merge_products_df = st.dataframe(pd.read_csv(r'.\\data\\main_df.csv')) 
+# tmp_merge_products_df = pd.read_csv('data\main_df.csv')
 tmp_customer_locations_df = pd.read_csv('data\customer.csv')
 tmp_seller_locations_df = pd.read_csv('data\seller.csv')
 rfm = pd.read_csv('data\rfm.csv')
