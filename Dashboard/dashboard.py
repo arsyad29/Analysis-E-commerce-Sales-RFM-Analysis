@@ -10,11 +10,10 @@ import os
 
 
 # Load data
-# tmp_merge_products_df = pd.read_csv('data\main_df.csv')
-# tmp_merge_products_df = pd.read_csv('data\main_df.csv')
-# tmp_customer_locations_df = pd.read_csv('data\customer.csv')
-# tmp_seller_locations_df = pd.read_csv('data\seller.csv')
-# rfm = pd.read_csv('data\rfm.csv')
+tmp_merge_products_df = pd.read_csv('Dashboard/data/main_df.csv')
+tmp_customer_locations_df = pd.read_csv('Dashbord/data/customer.csv')
+tmp_seller_locations_df = pd.read_csv('Dashboard/data/seller.csv')
+rfm = pd.read_csv('Dashboard/data/rfm.csv')
 
 # Create function for call data into visualization
 
