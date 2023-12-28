@@ -1,4 +1,4 @@
-Setup environment<br>
+# Setup environment
 conda create --name main-ds python=3.9<br>
 conda activate main-ds<br>
 pip install numpy<br>
