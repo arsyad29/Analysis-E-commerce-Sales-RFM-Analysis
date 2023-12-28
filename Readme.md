@@ -1,21 +1,18 @@
-Setup environment
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install numpy
-pip install pandas
-pip install matplotlib
-pip install seaborn
-pip install datetime
-pip install -U scikit-learn
-pip install os-sys
-pip install plotly-express
-pip install streamlit
+Setup environment<br>
+conda create --name main-ds python=3.9<br>
+conda activate main-ds<br>
+pip install numpy<br>
+pip install pandas<br>
+pip install matplotlib<br>
+pip install seaborn<br>
+pip install datetime<br>
+pip install -U scikit-learn<br>
+pip install os-sys<br>
+pip install plotly-express<br>
+pip install streamlit<br>
 
 
-Run Streamlit App
-
-streamlit run dashboard.py
-
-atau 
-
+# Run Streamlit App
+streamlit run dashboard.py<br>
+OR<br>
 streamlit run Dashboard/dashboard.py
